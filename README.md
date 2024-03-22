@@ -21,32 +21,20 @@ Available Scripts
 In the project directory, you can run the following scripts:
 
 Start Development Server:
-sql
-Copy code
 npm start
 Runs the app in development mode. Open http://localhost:3000 to view it in the browser. The page will reload if you make edits. You will also see any lint errors in the console.
 
 Build Project:
-arduino
-Copy code
 npm run build
 Builds the app for production to the build folder. It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes. Your app is ready to be deployed!
-
-Run Tests:
-bash
-Copy code
 npm test
+
 Launches the test runner in the interactive watch mode. See the section about running tests for more information.
-
-Run E2E Tests:
-arduino
-Copy code
 npm run e2e
-Executes the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-Code Scaffolding
+Executes the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 To generate a new component, you can use the following command:
 npm run generate component <component-name>
 
